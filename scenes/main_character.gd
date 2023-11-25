@@ -10,6 +10,7 @@ var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 
 
 func _physics_process(delta):
+	
 	#animations
 	if(velocity.x > 1 || velocity.x < -1):
 		animated_sprite_2d.animation = "running"

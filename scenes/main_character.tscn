@@ -195,6 +195,7 @@ animations = [{
 size = Vector2(15.6667, 24.6667)
 
 [node name="CharacterBody2D" type="CharacterBody2D"]
+position = Vector2(-4, -6)
 scale = Vector2(3, 3)
 script = ExtResource("1_0qmf1")
 
@@ -209,3 +210,6 @@ frame_progress = 0.724009
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(46, 180.333)
 shape = SubResource("RectangleShape2D_17m21")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(46.6667, 138.667)
